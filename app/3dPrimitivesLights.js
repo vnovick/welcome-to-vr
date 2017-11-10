@@ -34,7 +34,7 @@ export default class PrimitivesLit extends React.Component {
           penumbra={50} 
           intensity={.5}
           style={{ 
-            color: "orange",
+            color: "red",
             transform: [{
               translateZ: 2
             }]

@@ -32,7 +32,7 @@ export default class RoomSwitcher extends React.Component {
         <View style={styles.imageContainer}>
           <Image style={[styles.image, styles.leftImage]}
             source={asset('holodeck.jpg')} 
-            onInput={this.changeRoom('chess-world.jpg')} />
+            onInput={this.changeRoom('holodeck.jpg')} />
           <Image style={[styles.image, { transform: [{ translateZ: -0.2 }]}]}
             source={asset('singapore.jpg')}
             onInput={this.changeRoom('singapore.jpg')} />
