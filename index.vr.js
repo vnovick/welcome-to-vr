@@ -33,8 +33,8 @@ export default class WelcomeToVR extends React.Component {
   render() {
     return (
       <View>
-          <Hello />
-          {/* <RoomSwitcher /> */}
+          {/* <Hello /> */}
+          <RoomSwitcher />
           {/* <Primitives/> */}
           {/* <PrimitivesLit/> */}
           {/* <Models /> */}
