@@ -34,8 +34,8 @@ export default class WelcomeToVR extends React.Component {
     return (
       <View>
           {/* <Hello /> */}
-          <RoomSwitcher />
-          {/* <Primitives/> */}
+          {/* <RoomSwitcher /> */}
+          <Primitives/>
           {/* <PrimitivesLit/> */}
           {/* <Models /> */}
       </View>
